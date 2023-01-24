@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(252,166,201);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    font-family: sans-serif;
+}
+
+h1:hover{
+    color: black;
+}
+
+section p{
+    color: white;
+    text-align: center;
+    font-family: serif;
+}
+
+section p{
+    color: white;
+    text-align: center;
+}
+
+ol{
+    color:black;
+    font-family: sans-serif;
+    font-weight: 800;
+    margin-left:400px;
+}
+
+img{
+    height:200px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+
+.stretch{
+    width: 300px;
+    margin: 0 auto;
+}
+
+footer div{
+    font-family: sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    width: 300px;
+}
