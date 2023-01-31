@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
 body{
     background-color: #FFF8E8;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 22px;
     margin: 0;
     padding: 0;
 }
@@ -9,6 +15,7 @@ nav a{
     background-color: #FFF8E8;
     color: #990D35;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -39,6 +46,10 @@ nav a:hover{
     background-color: #FFF8E8;
     color: #990D35;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #990D35;
@@ -49,10 +60,14 @@ nav a:hover{
 }
 .msg{
     background-color: #FFF8E8;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
-    background-color: #FFF8E8;
-    color: #990D35;
+    background-color: steelblue;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title{
@@ -67,15 +82,13 @@ h4{
 }
 .msg p{
     color: #990D35;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a{
     color: #990D35;
     background-color: #FFF8E8;
     text-decoration: none;
-}
-footer a:hover{
-    color: #FFF8E8;
-    background-color: #990D35;
 }
 
 .logo{
@@ -84,14 +97,17 @@ footer a:hover{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
     width: 100%;
+    border: 4px solid steelblue;
 }
 
 footer p {
     font-size: 1.2em;
+    padding: 25px;
 }
 
 footer p a:hover{
@@ -101,4 +117,55 @@ footer p a:hover{
 #content{
     max-width: 1600px;
     margin: 0 auto;
+}
+
+h1 {
+    margin: 50px 0;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 25px;
+}
+a {
+    color: white;
+    padding: 25px;
+}
+p {
+    margin: 50px auto;
+}
+
+.home-title {
+    font-family: Montserrat;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+
+.msg h2 {
+    font-family: Montserrat;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
 }
