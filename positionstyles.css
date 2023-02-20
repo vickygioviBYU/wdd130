@@ -76,7 +76,7 @@
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 40px;
   grid-template-rows: 100px 100px 100px;
-  height: 300px;
+  height: 100%;
 
 }
 .red3 {
