@@ -319,12 +319,24 @@ a.socialmedia{
     margin: 20px;
 }
 
-.section1 p{
+.section1 ul{
     grid-column: 1/2;
     grid-row: 2/3;
     margin: 20px;
     text-align: left;
 
+}
+
+.section1 li{
+    margin: 20px;
+}
+
+.section2 li{
+    margin: 20px;
+}
+
+.section3 li{
+    margin: 20px;
 }
 
 .section1 img{
@@ -344,7 +356,7 @@ a.socialmedia{
     margin: 20px;
 }
 
-.section2 p{
+.section2 ul{
     grid-column: 2/3;
     grid-row: 2/3;
     margin: 20px;
@@ -369,7 +381,7 @@ a.socialmedia{
     margin: 20px;
 }
 
-.section3 p{
+.section3 ul{
     grid-column: 1/2;
     grid-row: 2/3;
     margin: 20px;
