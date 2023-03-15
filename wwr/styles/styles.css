@@ -363,6 +363,9 @@ form {
     padding: 1em;
     border: 1px solid #ccc;
     border-radius: 1em;
+
+    grid-column: 4/8;
+
   }
   
   ul {
@@ -420,6 +423,22 @@ form {
        between the labels and their text fields */
     margin-left: 0.5em;
   }
+
+/* Contact Us */
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
