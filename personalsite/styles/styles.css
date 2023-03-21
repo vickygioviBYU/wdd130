@@ -10,7 +10,8 @@ main {
 	padding: 20px;
 	display: grid;
 	grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 2em;
 }
 
 .when {
@@ -246,4 +247,134 @@ header {
     grid-template-columns: 150px 1fr;
     justify-content: center;
     align-items: center;
+}
+
+.programmingCompetences{
+    grid-row: 1/2;
+}
+
+.nextCodingCompetence{
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2em;
+    justify-content: center;
+}
+
+.nextCodingCompetence1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+.nextCodingCompetence2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center
+}
+
+.nextCodingCompetence3{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center
+}
+
+.nextCodingCompetence4{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center
+}
+
+.someWebsites{
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 2em;
+    align-items: center;
+}
+
+.someWebsites p{
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+
+.someWebsites1{
+    grid-column: 1/5;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+.someWebsites2{
+    grid-column: 1/5;
+    grid-row: 3/4;
+    text-align: center;
+}
+
+.someWebsites3{
+    grid-column: 1/5;
+    grid-row: 4/5;
+    text-align: center;
+}
+
+.someWebsites img{
+    grid-column: 5/7;
+    grid-row: 1/5;
+}
+
+.tutorials{
+    grid-row: 4/5;
+}
+
+.containerButton{
+    text-align: center;
+}
+
+.nextVideogames{
+    grid-row: 5/6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2em;
+    justify-content: center;
+}
+
+.nextVideogames1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+.nextVideogames2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+.nextVideogames3{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+.nextVideogames4{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+.cheats{
+    grid-row: 6/7;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 2em;
+}
+
+.cheats p{
+    grid-column: 1/5;
+}
+
+.cheats img{
+    grid-column: 5/7;
 }
