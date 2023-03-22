@@ -12,6 +12,7 @@ main {
 	grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 2em;
+    max-width: 1600px;
 }
 
 .when {
